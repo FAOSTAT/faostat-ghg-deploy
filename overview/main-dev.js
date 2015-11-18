@@ -50,6 +50,7 @@ require([
     m.init({
             lang: locale,
             placeholder: '#fs-module',
-            datasource: 'faostat' //'faostatdb'
+            datasource: 'faostat', //'faostat/faostat2/faostatdb',
+            url_wds: 'http://faostat3.fao.org/wds'
         });
 });
