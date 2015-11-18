@@ -2,7 +2,6 @@
 var CDN = '//fenixrepo.fao.org/cdn/';
 var projectRoot = '';
 
-
 require.config({
 
     waitSeconds: 20,
@@ -70,7 +69,5 @@ require([
         url_wds: 'http://fenixapps2.fao.org/wds_5/rest',
         datasource: 'faostatdata'
     })
-
-
 
 });

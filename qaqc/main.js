@@ -1,15 +1,16 @@
 
 var CDN = '//fenixrepo.fao.org/cdn/';
-var projectRoot = 'http://fenixrepo.fao.org/cdn/projects/ghg/1.0.0/qaqc/';
-
+var projectRoot = "http://www.fao.org/fenixrepo/cdn/projects/ghg/1.0.0/qaqc/";
 
 require.config({
 
     waitSeconds: 20,
 
-    text: {
-        useXhr: function (url, protocol, hostname, port) {
-            return true;
+    config: {
+        text: {
+            useXhr: function (url, protocol, hostname, port) {
+                return true;
+            }
         }
     },
 
@@ -67,10 +68,8 @@ require([
     module.init({
         placeholder_id: 'fs-module',
         lang: locale,
-        url_wds: 'http://fenixapps2.fao.org/wds_5/rest',
+        url_wds: 'http://www.fao.org/fenixrepo/external/fenixapps2/wds_5/rest',
         datasource: 'faostatdata'
     })
-
-
 
 });
