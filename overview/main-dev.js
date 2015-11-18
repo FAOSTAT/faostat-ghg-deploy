@@ -1,6 +1,6 @@
 
 var repository = 'http://fenixrepo.fao.org/cdn/';
-var projectRoot = 'submodules/';
+var projectRoot = '';
 
 require.config({
 
@@ -19,11 +19,11 @@ require.config({
         'chosen': repository + 'js/chosen/1.2.0/chosen.jquery.min',
         'jshashtable': repository + 'js/jshashtable/0.0.1/jshashtable',
 
-        'f3-ghg-chart': projectRoot + 'faostat-ui-ghg-overview/libs/f3-ghg-chart',
-        'wide-table': projectRoot + 'faostat-ui-ghg-overview/libs/wide-table-min',
+        'f3-ghg-chart': projectRoot + 'submodules/faostat-ui-ghg-overview/libs/f3-ghg-chart',
+        'wide-table': projectRoot + 'submodules/faostat-ui-ghg-overview/libs/wide-table-min',
 
-        'FAOSTAT_UI_GHG_OVERVIEW': projectRoot + 'faostat-ui-ghg-overview/src/js/ghg-overview',
-        'faostat_ui_ghg_overview': projectRoot + 'faostat-ui-ghg-overview'
+        'FAOSTAT_UI_GHG_OVERVIEW': projectRoot + 'submodules/faostat-ui-ghg-overview/src/js/ghg-overview',
+        'faostat_ui_ghg_overview': projectRoot + 'submodules/faostat-ui-ghg-overview'
 
     },
 

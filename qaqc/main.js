@@ -1,6 +1,6 @@
 
 var CDN = '//fenixrepo.fao.org/cdn/';
-var projectRoot = 'submodules/';
+var projectRoot = 'http://fenixrepo.fao.org/cdn/projects/ghg/1.0.0/qaqc/';
 
 
 require.config({
@@ -28,13 +28,13 @@ require.config({
         'bootstrap': CDN + 'js/bootstrap/3.2/js/bootstrap.min',
         'sweetAlert': CDN + 'js/sweet-alert/0.4.2/sweet-alert',
 
-        FAOSTAT_UI_COMMONS: projectRoot + 'faostat-ui-commons/js/faostat-ui-commons',
-        faostat_ui_commons : projectRoot + 'faostat-ui-commons',
-        FAOSTAT_UI_WIDE_TABLES: projectRoot + 'faostat-ui-wide-tables/js/faostat-ui-wide-tables',
-        faostat_ui_wide_tables: projectRoot + 'faostat-ui-wide-tables',
-        FAOSTAT_UI_ANALYSIS_GHG_QA_QC: projectRoot + 'faostat-ui-analysis-ghg-qaqc/js/faostat-ui-analysis-ghg-qaqc',
-        faostat_ui_analysis_ghg_qa_qc: projectRoot + 'faostat-ui-analysis-ghg-qaqc',
-        FAOSTAT_UI_ANALYSIS_GHG_QAQC_PDF: projectRoot + 'faostat-ui-analysis-ghg-qaqc/pdf/'
+        FAOSTAT_UI_COMMONS: projectRoot + 'submodules/faostat-ui-commons/js/faostat-ui-commons',
+        faostat_ui_commons : projectRoot + 'submodules/faostat-ui-commons',
+        FAOSTAT_UI_WIDE_TABLES: projectRoot + 'submodules/faostat-ui-wide-tables/js/faostat-ui-wide-tables',
+        faostat_ui_wide_tables: projectRoot + 'submodules/faostat-ui-wide-tables',
+        FAOSTAT_UI_ANALYSIS_GHG_QA_QC: projectRoot + 'submodules/faostat-ui-analysis-ghg-qaqc/js/faostat-ui-analysis-ghg-qaqc',
+        faostat_ui_analysis_ghg_qa_qc: projectRoot + 'submodules/faostat-ui-analysis-ghg-qaqc',
+        FAOSTAT_UI_ANALYSIS_GHG_QAQC_PDF: projectRoot + 'submodules/faostat-ui-analysis-ghg-qaqc/pdf/'
 
     },
 
@@ -67,7 +67,8 @@ require([
     module.init({
         placeholder_id: 'fs-module',
         lang: locale,
-        url_wds: 'http://fenixapps2.fao.org/wds_5/rest'
+        url_wds: 'http://fenixapps2.fao.org/wds_5/rest',
+        datasource: 'faostatdata'
     })
 
 

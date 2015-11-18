@@ -1,6 +1,6 @@
 
 var repository = 'http://fenixrepo.fao.org/cdn/';
-var projectRoot = 'submodules/';
+var projectRoot = 'http://fenixrepo.fao.org/cdn/projects/ghg/1.0.0/overview/';
 
 require.config({
 
@@ -19,8 +19,9 @@ require.config({
         'handlebars': repository + 'js/handlebars/2.0.0/handlebars',
         'chosen': repository + 'js/chosen/1.2.0/chosen.jquery.min',
         'jshashtable': repository + 'js/jshashtable/0.0.1/jshashtable',
-        'FAOSTAT_UI_GHG_OVERVIEW': projectRoot + 'faostat-ui-ghg-overview/src/js/ghg-overview',
-        'faostat_ui_ghg_overview': projectRoot + 'faostat-ui-ghg-overview'
+
+        'FAOSTAT_UI_GHG_OVERVIEW': projectRoot + 'submodules/faostat-ui-ghg-overview/src/js/ghg-overview',
+        'faostat_ui_ghg_overview': projectRoot + 'submodules/faostat-ui-ghg-overview'
 
     },
 
