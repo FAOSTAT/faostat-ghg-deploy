@@ -68,7 +68,7 @@ require([
         placeholder_id: 'fs-module',
         lang: locale,
         url_wds: 'http://fenixapps2.fao.org/wds_5/rest',
-        datasource: 'faostatdata'
+        datasource: 'faostatdb'
     })
 
 
