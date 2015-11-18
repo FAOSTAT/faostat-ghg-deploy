@@ -54,6 +54,6 @@ require([
             lang: locale,
             placeholder: '#fs-module',
             datasource: 'faostatdb', //'faostat/faostat2/faostatdb',
-            url_wds: 'http://faostat3.fao.org/wds'
+            url_wds: 'http://fenixapps2.fao.org/wds_5/rest'
         });
 });
