@@ -34,7 +34,7 @@ require.config({
         faostat_ui_wide_tables: projectRoot + 'faostat-ui-wide-tables',
         FAOSTAT_UI_ANALYSIS_GHG_QA_QC: projectRoot + 'faostat-ui-analysis-ghg-qaqc/js/faostat-ui-analysis-ghg-qaqc',
         faostat_ui_analysis_ghg_qa_qc: projectRoot + 'faostat-ui-analysis-ghg-qaqc',
-        FAOSTAT_UI_ANALYSIS_GHG_QAQC_PDF: projectRoot + 'faostat-ui-analysis-ghg-qaqc/pdf/',
+        FAOSTAT_UI_ANALYSIS_GHG_QAQC_PDF: projectRoot + 'faostat-ui-analysis-ghg-qaqc/pdf/'
 
     },
 
