@@ -1,0 +1,15 @@
+[submodule "qaqc/submodules/faostat-ui-ghg-overview"]
+	path = qaqc/submodules/faostat-ui-ghg-overview
+	url = https://github.com/FAOSTAT/faostat-ui-ghg-overview.git
+[submodule "overview/submodules/faostat-ui-ghg-overview"]
+	path = overview/submodules/faostat-ui-ghg-overview
+	url = https://github.com/FAOSTAT/faostat-ui-ghg-overview.git
+[submodule "qaqc/submodules/faostat-ui-wide-tables"]
+	path = qaqc/submodules/faostat-ui-wide-tables
+	url = https://github.com/FAOSTAT/faostat-ui-wide-tables.git
+[submodule "qaqc/submodules/faostat-ui-analysis-ghg-qaqc"]
+	path = qaqc/submodules/faostat-ui-analysis-ghg-qaqc
+	url = https://github.com/FAOSTAT/faostat-ui-analysis-ghg-qaqc.git
+[submodule "qaqc/submodules/faostat-ui-commons"]
+	path = qaqc/submodules/faostat-ui-commons
+	url = https://github.com/FAOSTAT/faostat-ui-commons.git
