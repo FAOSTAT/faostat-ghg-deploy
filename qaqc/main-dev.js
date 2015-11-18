@@ -65,7 +65,7 @@ require([
     var module = new MODULE();
 
     module.init({
-        placeholder_id: 'fs-qaqc-module',
+        placeholder_id: 'fs-module',
         lang: locale,
         url_wds: 'http://fenixapps2.fao.org/wds_5/rest'
     })
