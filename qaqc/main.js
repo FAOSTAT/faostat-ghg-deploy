@@ -53,7 +53,8 @@ require.config({
 
 });
 
-var locale = "en"; //en, fr, es
+var placeholder = "fs-module",
+    locale = document.getElementById(placeholder).getAttribute('data-lang'); //en, fr, es
 
 require.config({'locale': locale});
 
@@ -66,9 +67,9 @@ require([
     var module = new MODULE();
 
     module.init({
-        placeholder_id: 'fs-module',
+        placeholder_id: placeholder,
         lang: locale,
-        url_wds: 'http://www.fao.org/fenixrepo/external/fenixapps2/wds_5/rest',
+        url_wds: 'http://fenixapps2.fao.org/wds_5/rest',
         datasource: 'faostatdata'
     })
 

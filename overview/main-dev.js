@@ -39,7 +39,15 @@ require.config({
     }
 });
 
-var locale = "E"; //S, F
+var placeholder = "fs-module",
+    locale = document.getElementById(placeholder).getAttribute('data-lang'); //en, fr, es
+
+    switch(locale) {
+        case 'en': locale = 'E'; break;
+        case 'fr': locale = 'F'; break;
+        case 'es': locale = 'S'; break;
+        default: locale = 'E';
+    }
 
 require.config({'locale': locale});
 
@@ -52,7 +60,7 @@ require([
     var m = new MODULE();
     m.init({
             lang: locale,
-            placeholder: '#fs-module',
+            placeholder: '#' + placeholder,
             datasource: 'faostatdb', //'faostat/faostat2/faostatdb',
             url_wds: 'http://fenixapps2.fao.org/wds_5/rest'
         });
