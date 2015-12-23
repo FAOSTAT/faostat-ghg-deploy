@@ -1,6 +1,6 @@
 
-var CDN = '//fenixrepo.fao.org/cdn/';
-var projectRoot = "http://www.fao.org/fenixrepo/cdn/projects/ghg/1.0.0/qaqc/";
+var CDN = 'http://fenixrepo.fao.org/cdn/';
+var projectRoot = "http://fenixrepo.fao.org/cdn/projects/ghg/1.0.0/qaqc/";
 
 require.config({
 
@@ -43,7 +43,6 @@ require.config({
 
         'highcharts': ['jquery'],
         'highcharts-exporting': ['highcharts'],
-        'f3-ghg-chart': ['highcharts'],
         'chosen': ['jquery'],
         'handlebars': ['jquery'],
         'amplify': ['jquery'],
@@ -69,7 +68,7 @@ require([
     module.init({
         placeholder_id: placeholder,
         lang: locale,
-        url_wds: 'http://fenixapps2.fao.org/wds_5/rest',
+        url_wds: 'http://www.fao.org/fenixrepo/external/fenixapps2/wds_5/rest',
         datasource: 'faostatdata'
     })
 

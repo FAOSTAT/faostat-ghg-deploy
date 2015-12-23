@@ -1,14 +1,16 @@
 
-var CDN = '//fenixrepo.fao.org/cdn/';
-var projectRoot = '';
+var CDN = 'http://fenixrepo.fao.org/cdn/';
+var projectRoot = "";
 
 require.config({
 
     waitSeconds: 20,
 
-    text: {
-        useXhr: function (url, protocol, hostname, port) {
-            return true;
+    config: {
+        text: {
+            useXhr: function (url, protocol, hostname, port) {
+                return true;
+            }
         }
     },
 
@@ -41,7 +43,6 @@ require.config({
 
         'highcharts': ['jquery'],
         'highcharts-exporting': ['highcharts'],
-        'f3-ghg-chart': ['highcharts'],
         'chosen': ['jquery'],
         'handlebars': ['jquery'],
         'amplify': ['jquery'],
@@ -67,7 +68,7 @@ require([
     module.init({
         placeholder_id: placeholder,
         lang: locale,
-        url_wds: 'http://fenixapps2.fao.org/wds_5/rest',
+        url_wds: 'http://www.fao.org/fenixrepo/external/fenixapps2/wds_5/rest',
         datasource: 'faostatdata'
     })
 
