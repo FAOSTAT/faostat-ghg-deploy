@@ -30,7 +30,7 @@ require.config({
         'bootstrap': CDN + 'js/bootstrap/3.2/js/bootstrap.min',
 
         'f3-ghg-chart': projectRoot + 'submodules/faostat-ui-ghg-overview/libs/f3-ghg-chart',
-        'wide-table': projectRoot + 'submodules/faostat-ui-ghg-overview/libs/wide-table-min',
+        'wide-table': projectRoot + 'submodules/faostat-ui-ghg-overview/libs/wide-table',
 
         'FAOSTAT_UI_GHG_OVERVIEW': projectRoot + 'submodules/faostat-ui-ghg-overview/src/js/ghg-overview',
         'faostat_ui_ghg_overview': projectRoot + 'submodules/faostat-ui-ghg-overview'
