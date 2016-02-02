@@ -33,7 +33,10 @@ require.config({
         'wide-table': projectRoot + 'submodules/faostat-ui-ghg-overview/libs/wide-table',
 
         'FAOSTAT_UI_GHG_OVERVIEW': projectRoot + 'submodules/faostat-ui-ghg-overview/src/js/ghg-overview',
-        'faostat_ui_ghg_overview': projectRoot + 'submodules/faostat-ui-ghg-overview'
+        'faostat_ui_ghg_overview': projectRoot + 'submodules/faostat-ui-ghg-overview',
+
+        FileSaver: CDN + '/js/FileSaver/1.1.2/FileSaver.min',
+        Blob: CDN + '/js/blob/1.0/Blob'
 
     },
 
@@ -45,7 +48,10 @@ require.config({
         'chosen': ['jquery'],
         'handlebars': ['jquery'],
         'FAOSTAT_UI_COMMONS': ['jquery'],
-        'bootstrap': ['jquery']
+        'bootstrap': ['jquery'],
+        "FileSaver": {
+            deps: ["jquery", 'Blob']
+        }
 
     }
 });
