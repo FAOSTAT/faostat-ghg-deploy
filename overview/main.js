@@ -73,6 +73,6 @@ require([
         lang: locale,
         placeholder: '#' + placeholder,
         datasource: 'faostatdb', //'faostat/faostat2/faostatdb',
-        url_wds: 'http://www.fao.org/fenixrepo/external/fenixapps2/wds_5/rest'
+        url_wds: 'http://www.fao.org/fenixrepo/external/fenixapps2/wds_ghg/rest'
     });
 });
