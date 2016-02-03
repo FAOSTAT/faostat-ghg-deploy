@@ -55,7 +55,6 @@ require.config({
             deps: ["jquery", 'Blob']
         }
 
-
     }
 
 });
@@ -68,8 +67,11 @@ require.config({'locale': locale});
 /* Bootstrap the application. */
 require([
     'FAOSTAT_UI_ANALYSIS_GHG_QA_QC',
+    'loglevel',
     'domReady!'
-], function (MODULE) {
+], function (MODULE, log) {
+
+    log.setLevel('info');
 
     var module = new MODULE();
 
