@@ -1,6 +1,6 @@
 
 var CDN = 'http://fenixrepo.fao.org/cdn/';
-var projectRoot = "http://fenixrepo.fao.org/cdn/projects/ghg/1.0.0/qaqc/";
+var projectRoot = "http://fenixrepo.fao.org/cdn/projects/ghg/1.1.0/qaqc/";
 
 require.config({
 
@@ -38,7 +38,8 @@ require.config({
         FAOSTAT_UI_ANALYSIS_GHG_QAQC_PDF: projectRoot + 'submodules/faostat-ui-analysis-ghg-qaqc/pdf/',
 
         FileSaver: CDN + '/js/FileSaver/1.1.2/FileSaver.min',
-        Blob: CDN + '/js/blob/1.0/Blob'
+        Blob: CDN + '/js/blob/1.0/Blob',
+        loglevel: CDN + '/js/loglevel/1.4.0/loglevel'
 
     },
 
