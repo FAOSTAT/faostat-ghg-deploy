@@ -1,6 +1,6 @@
 
 var CDN = 'http://fenixrepo.fao.org/cdn/';
-var projectRoot = "http://fenixrepo.fao.org/cdn/projects/ghg/1.1.0/overview/";
+var projectRoot = "http://fenixrepo.fao.org/cdn/projects/ghg/1.0.0/overview/";
 
 
 require.config({
