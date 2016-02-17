@@ -28,6 +28,7 @@ require.config({
         'chosen': CDN + 'js/chosen/1.2.0/chosen.jquery.min',
         'jshashtable': CDN + 'js/jshashtable/0.0.1/jshashtable',
         'bootstrap': CDN + 'js/bootstrap/3.2/js/bootstrap.min',
+        'sweetAlert': CDN + 'js/sweet-alert/0.4.2/sweet-alert',
 
         'f3-ghg-chart': projectRoot + 'submodules/faostat-ui-ghg-overview/libs/f3-ghg-chart',
         'wide-table': projectRoot + 'submodules/faostat-ui-ghg-overview/libs/wide-table',
