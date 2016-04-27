@@ -1,6 +1,6 @@
 
 var repository = 'http://fenixrepo.fao.org/cdn/';
-var projectRoot = "http://www.fao.org/fenixrepo/cdn/projects/ghg/1.0.0/overview/";
+var projectRoot = "http://www.fao.org/fenixrepo/ghg/1.0.0/overview/";
 
 
 require.config({
