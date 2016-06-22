@@ -79,7 +79,7 @@ require([
         placeholder_id: placeholder,
         lang: locale,
         url_wds: 'http://www.fao.org/fenixrepo/external/fenixapps2/wds_ghg/rest',
-        datasource: 'FAOSTAT-GHG'
+        datasource: 'faostat-ghg'
     });
 
 });

@@ -79,7 +79,7 @@ require([
     m.init({
         lang: locale,
         placeholder: '#' + placeholder,
-        datasource: 'FAOSTAT-GHG',
+        datasource: 'faostat-ghg',
         url_wds: 'http://www.fao.org/fenixrepo/external/fenixapps2/wds_ghg/rest'
     });
 });
